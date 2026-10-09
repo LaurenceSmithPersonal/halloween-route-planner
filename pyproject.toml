@@ -1,0 +1,17 @@
+[project]
+name = "halloween-route-planner"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Laurence Smith", email = "ls@laurencesmith.net" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+halloween-route-planner = "halloween_route_planner:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
